@@ -1,0 +1,13 @@
+name: IITM GA Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f2005837@ds.study.iitm.ac.in
+        run: echo "Hello, IITM!"
